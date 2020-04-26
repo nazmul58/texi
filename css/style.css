@@ -1,0 +1,244 @@
+/*==========================================================
+    Abstract:
+          => This Framework has been written
+          => MD.SUJAN AHMED
+============================================================*/
+
+
+/*Start Framework*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+a,
+a:hover {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul,
+ol,
+button,
+input,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 17px;
+
+}
+
+.text-col {
+  color: #ffc61a;
+}
+
+.bag-color {
+  background: #ffc61a;
+}
+
+/*==========================================================
+    btn:-
+============================================================*/
+
+/*==========================================================
+    Padding Section:-
+============================================================*/
+
+/*==========================================================
+    Margin:-
+============================================================*/
+
+/*End Framework*/
+
+
+
+
+
+/*==========================================================
+    Header Start
+============================================================*/
+#header-section {
+  background: url('../img/header/headerBG.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 150px;
+
+}
+
+#header-section .navbar {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 10px;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link {
+  background-color: #ffc61a;
+  border-radius: 50px;
+  color: #000;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  background-color: #ffc61a;
+  border-radius: 50px;
+  color: #000;
+}
+
+#header-section .header-cont h4 {
+  text-transform: uppercase;
+  color: #ffc61a;
+}
+
+#header-section .header-cont p {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 12px;
+}
+
+/* about section
+................................................ */
+#about {
+  background-color: #ffc61a;
+  margin-top: -106px;
+  padding-top: 50px;
+}
+
+#about h3,
+h2 {
+  text-transform: uppercase;
+}
+
+#about p {
+  margin-right: 100px;
+}
+
+.form-control {
+  border: 0;
+  border-bottom: 1px solid;
+  border-radius: 0;
+  padding: 0;
+}
+
+#about span {
+  color: #ffc61a;
+  font-weight: bold;
+}
+
+#about input.btn {
+  font-weight: bold;
+
+}
+
+/* card section
+..................... */
+#traphic .card {
+  background: #f5f4f2;
+}
+
+#traphic .card img {
+  margin-top: -90px;
+}
+
+#traphic .card h2 {
+  color: #ffc61a;
+}
+
+#traphic .card a {
+  background: #ffc61a;
+  color: #000;
+  font-weight: bold;
+}
+
+#traphic .card:hover {
+  background: #ffc61a;
+  color: #000;
+
+}
+
+#traphic .card:hover a {
+  background: #1b1b1b;
+  color: #fff;
+}
+
+#traphic .card:hover h2 {
+  color: #000;
+}
+
+/* 
+chose section
+.................................... */
+
+#chose {
+  background: url('../img/chose/chosebg.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* download section */
+#download .down-img img {
+  width: 45%;
+}
+
+/* textimonial section */
+#testimonial {
+  background: url('../img/testingbg.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+#testimonial .card {
+  border-radius: 40px;
+  background: #040707;
+}
+
+/* contact section */
+#contact {
+  background: url('../img/contuctbg.jpg');
+  background-size: cover;
+
+}
+
+#contact hr {
+  border-width: 5px;
+  width: 90%;
+}
+
+#contact .con-icon .fa {
+  margin-right: 16px;
+  color: #ffc61a;
+}
+
+#contact span {
+  color: #ffc61a;
+}
+
+#contact .d-flex .fa {
+  font-size: 20px;
+  margin-right: 16px;
+}
+
+/* footer section */
+#footer-section {
+  background: #030201;
+  padding: 16px;
+}
